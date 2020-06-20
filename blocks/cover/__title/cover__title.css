@@ -2,7 +2,7 @@
   .cover__title {
   	font-size: 32px;
   	line-height: 35px;
-  	width: 288px;
+  	max-width: 288px;
   	padding-bottom: 16px;
   }
 }
@@ -11,7 +11,7 @@
   .cover__title {
   	font-size: 72px;
   	line-height: 76px;
-  	width: 560px;
+  	max-width: 560px;
   	padding-bottom: 32px;
   }
 }

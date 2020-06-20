@@ -12,6 +12,10 @@
   .cover {
     padding: 92px 0 0 0;
   }
+
+  .cover__backgroung img {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -19,6 +23,7 @@
     max-width: 1280px;
     padding: 92px 48px 0;
   }
+
 }
 
 
@@ -26,8 +31,8 @@
   margin: 0 auto;
   box-sizing: border-box;
   display: grid;
-  grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: repeat(10, 1fr);
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
  }
 
 .cover:hover .cover__overlay img{
