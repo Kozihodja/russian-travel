@@ -1,0 +1,35 @@
+@import url(./__title/cover__title.css);
+@import url(./__subtitle/cover__subtitle.css);
+@import url(./__overlay/cover__overlay.css);
+@import url(./__background/cover__background.css);
+@import url(./__text/cover__text.css);
+
+
+/*блок cover разделил на грид области 10*10, изображение разместил с 1 по 11 горизонтальные и вертикальные линии*/
+/*элементы cover__title и cover__subtitle разместил в элементе cover__text, который наложил на cover__background*/
+
+@media screen and (max-width: 1279px) {
+  .cover {
+    padding: 92px 0 0 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover {
+    max-width: 1280px;
+    padding: 92px 48px 0;
+  }
+}
+
+
+.cover {
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+ }
+
+.cover:hover .cover__overlay img{
+    opacity: 0.35; /* Высветляем картинку, но она становится темнее, так как под ней черный фон */
+}

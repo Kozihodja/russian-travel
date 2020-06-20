@@ -1,0 +1,33 @@
+@import url(./__title/lead__title.css);
+@import url(./__subtitle/lead__subtitle.css);
+@import url(./__image/lead__image.css);
+@import url(./__caption/lead__caption.css);
+
+/*ширина lead__image равна 100% блока lead*/
+/*блок lead распологается по центру экрана, если есть свободное пространство*/
+
+@media screen and (max-width: 1023px) {
+  .lead {
+    width: 100%;
+    /*блок занимает 100% ширины экрана для мониторов шириной до 1024px (не включительно)*/
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lead {
+    max-width: 928px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead {
+    max-width: 984px;
+  }
+}
+
+
+.lead {
+	padding-top: 56px;
+	text-align: center;
+	margin: 0 auto;
+}
