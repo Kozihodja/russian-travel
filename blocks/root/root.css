@@ -35,7 +35,7 @@
 
 @media screen and (min-width: 768px) {
   .root {
-    grid-template-columns: 24px calc(100% - 2*20px) 24px;
+    grid-template-columns: 24px calc(100% - 2*24px) 24px;
     padding-top: 28px;
     grid-row-gap: 48px;
   }
