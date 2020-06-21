@@ -3,35 +3,24 @@
 @import url(./__list/intro__list.css);
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1279px) {
   .intro {
     width: 100%;
-    padding: 64px 16px 0 16px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .intro {
-    width: 100%;
-    padding: 88px 24px 0 24px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .intro {
-    max-width: 928px;
-    /*Ширину блока intro задаем равной ширине блока lead и элементы блока intro распологаем слева*/
-    padding: 92px 0 0 0;
+    margin: 0;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .intro {
-    max-width: 984px;
+    width: 984px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
+
 .intro {
-	margin: 0 auto;
+  grid-column: 2/3;
+  grid-row: 3/4;
   box-sizing:border-box;
 }
