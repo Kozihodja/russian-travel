@@ -1,33 +1,12 @@
 @import url(./__logo/header__logo.css);
 @import url(./__lang-link/header__lang-link.css);
 
-/*экраны от 320 до 768*/
-@media screen and (max-width: 768px) {
-  .header {
-    width: 100%;
-    padding: 16px 16px 0 16px;
-  }
-}
 
-@media screen and (min-width:768px) {
-  .header {
-    padding: 28px 24px 0 24px;
-  }
-}
-
-@media screen and (min-width:1024px) {
-  .header {
-    padding: 28px 48px 0 48px;
-  }
-}
-
-@media screen and (min-width:1280px) {
-  .header {
-    max-width: 1280px;
-  }
-}
-
+/*Во всех типах экрана имеет отступы, поэтому распологаем между 2 и 3 вертикальнымы линиями*/
 .header {
+	width: 100%;
+  grid-column: 2/3;
+  grid-row: 1/2;
 	box-sizing:border-box;
 	display: flex;
 	flex-direction: row;
