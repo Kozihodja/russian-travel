@@ -50,6 +50,23 @@
   }
 }
 
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'),
+       url('../../vendor/fonts/Inter-Regular.woff2') format('woff2'),
+       url('../../vendor/fonts/Inter-Regular.ttf') format('woff2');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'),
+       url('../../vendor/fonts/Inter-Bold.ttf') format('woff2');
+  font-style: normal;
+  font-weight: bold;
+}
+
 .root {
 	background-color: #2a2c2f;
 	font-family: 'Inter', sans-serif;
@@ -61,4 +78,3 @@
 	grid-template-rows: repeat(7, auto);
 	align-items: start;
 }
-
