@@ -1,10 +1,6 @@
 .cover__background {
-  grid-area: 1 / 1 / 2 / 2;
+	grid-area: 1 / 1 / 2 / 2;
   opacity: 0.8; /*Немного затемнил изображение, чтобы заголовок и подзаголок читались*/
-}
-
-.cover__background img {
-	opacity: 1;
   transition: opacity 124ms linear, transform 124ms linear;
   width: 100%;
   height: auto;

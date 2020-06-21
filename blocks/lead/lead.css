@@ -3,8 +3,8 @@
 @import url(./__image/lead__image.css);
 @import url(./__caption/lead__caption.css);
 
-/*до 768px блок будет занимать всю ширину страницы*/
-/*769 будет иметь отступы по краям*/
+/*до 768px блок будет занимаtn всю ширину страницы*/
+/*c 769px будет иметь отступы по краям*/
 
 @media screen and (max-width: 768px) {
   .lead {

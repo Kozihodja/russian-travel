@@ -20,6 +20,6 @@
 }
 
 .header__lang-link:lang(ru) {
-	text-decoration: none;
-	border: 1px solid red;
+	text-decoration: underline;
+	padding-right: 18px;
 }

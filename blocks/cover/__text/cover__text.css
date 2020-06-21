@@ -1,8 +1,13 @@
 .cover__text {
 	grid-area: 1 / 1 / 2 / 2;
   z-index: 1;
+/*Элемент делаем вертикальным флекс контейнером и вертикально выравниваем по центру
+отступ между элементами __title и __subtitle задан в виде padding-top элементу __subtitle*/
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-decoration: none;
+  color: white;
+  text-align: center;
+  width: 100%;
 }

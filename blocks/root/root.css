@@ -6,16 +6,15 @@
 @media screen and (max-width: 449px) {
   .root {
   	width: 100%;
-    grid-template-columns: minmax(16px, 16px) calc(100% - 2*16px) minmax(16px, 16px);
+    grid-template-columns: 16px calc(100% - 2*16px) 16px;
+  /*левый и правый столбцы по 16px выступают в качестве отступов*/
+  /*элементы которые долны занять всю ширину экрана, будут наложены на три столбца*/
     padding-top: 16px;
     padding-bottom: 24px;
     grid-row-gap: 48px;
-  }
-
-  .root section {
-    padding-bottom: 16px;
-  /*расстояние между грид элементами 48px,необходимое расстояния блоками section и footer 64px,
-  необходимо добавить отступ снизу элементам section, */
+/*Отступы между всеми блоками равны, кроме отступа между блоками header и lead, он меньше*/
+/*поэтому строчные отступы грида равны отступу между header и lead*/
+/*микс offset добавляет необходимый отступ (padding-top) отстальныv элементам*/
   }
 }
 
@@ -27,10 +26,6 @@
   	padding-bottom: 24px;
     grid-row-gap: 48px;
   }
-
-  .root section {
-    padding-bottom: 16px;
-  }
 }
 
 @media screen and (min-width: 768px) {
@@ -39,20 +34,12 @@
     padding-top: 28px;
     grid-row-gap: 48px;
   }
-
-  .root section {
-    padding-bottom: 40px;
-  }
 }
 
 @media screen and (min-width: 1024px) {
   .root {
-    grid-template-columns: minmax(48px, 48px) calc(100% - 2*48px) minmax(48px, 48px);
+    grid-template-columns: 48px calc(100% - 2*48px) 48px;
     grid-row-gap: 48px;
-  }
-
-  .root section {
-    padding-bottom: 44px;
   }
 }
 
@@ -60,10 +47,6 @@
   .root {
     max-width: 1280px;
     grid-row-gap: 56px;
-  }
-
-  .root section {
-    padding-bottom: 36px;
   }
 }
 

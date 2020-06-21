@@ -1,0 +1,23 @@
+@media screen and (min-width: 450px) {
+  .offset {
+    padding-top: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .offset {
+    padding-top: 40px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .offset {
+    padding-top: 44px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .offset {
+    padding-top: 36px;
+  }
+}

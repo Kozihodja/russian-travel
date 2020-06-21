@@ -3,6 +3,7 @@
   	font-size: 14px;
   	line-height: 16px;
   	max-width: 288px;
+    padding-top: 16px;
   }
 }
 
@@ -11,11 +12,10 @@
   	font-size: 18px;
   	line-height: 22px;
   	max-width: 360px;
+    padding-top: 32px;
   }
 }
 
 .cover__subtitle {
-  text-align: center;
-  color: white;
   margin: 0 auto;
 }

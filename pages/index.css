@@ -8,4 +8,11 @@
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/footer/footer.css);
 
+
+/*Миксы*/
+
+/*Дополнительные отступы между грид элементами .root*/
+@import url(../blocks/offset/offset.css);
+
+/*общие стили ссылок и затемнение при наведении*/
 @import url(../blocks/link/link.css);

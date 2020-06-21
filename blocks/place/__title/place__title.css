@@ -1,9 +1,15 @@
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 449px) {
   .place__title {
-  	font-size: 32px;
-		line-height: 35px;
-    box-sizing:border-box;
+    font-size: 32px;
+    line-height: 35px;       
     padding: 0 16px 0 16px;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  .place__title {
+    font-size: 32px;
+    line-height: 35px;
   }
 }
 
@@ -24,4 +30,5 @@
 .place__title {
 	font-weight: 900;
 	margin: 0;
+  box-sizing:border-box;
 }

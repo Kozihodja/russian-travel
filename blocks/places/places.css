@@ -4,6 +4,7 @@
 @media screen and (max-width: 449px) {
   .places {
     width: 100%;
+    /*блок всю ширину экрана, отступы для элементов title и paragraph заданы в виде padding*/
     grid-column: 1/4;
     grid-gap: 48px;
   }
@@ -12,6 +13,7 @@
 @media screen and (min-width: 450px) {
   .places {
     width: 100%;
+    /*блок расположен в центральном столбце грида для устройств с шириной экрана более 450px, появляются отступы по бокам*/
     grid-column: 2/3;
     grid-gap: 72px;
   }
@@ -26,9 +28,10 @@
 
 @media screen and (min-width: 1280px) {
   .places {
+    /*Ширину блока задаем равной ширине блока lead, и выравниваем по центру, таким образом у них будет одинаковый отступ от левого края экрана*/
     width: 984px;
-    margin-right: auto;
-    margin-left: auto;
+    width: 984px;
+    margin: 0 auto;
   }
 }
 

@@ -5,7 +5,7 @@
 @import url(./__text/cover__text.css);
 
 
-/*блок cover разделил на грид области 10*10, изображение разместил с 1 по 11 горизонтальные и вертикальные линии*/
+/*блок cover разделил на грид области и наложил элементы друг на друга*/
 /*элементы cover__title и cover__subtitle разместил в элементе cover__text, который наложил на cover__background*/
 
 @media screen and (max-width: 1279px) {
@@ -13,7 +13,7 @@
     grid-column: 1/4;
   }
 
-  .cover__backgroung img {
+  .cover__backgroung {
     width: 100%;
   }
 }
@@ -36,6 +36,6 @@
   grid-template-rows: 1fr;
  }
 
-.cover:hover .cover__overlay img{
-    opacity: 0.35; /* Высветляем картинку, но она становится темнее, так как под ней черный фон */
+.cover:hover .cover__background {
+    opacity: 0.35;
 }
