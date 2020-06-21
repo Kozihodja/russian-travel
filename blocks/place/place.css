@@ -43,8 +43,7 @@
   }
 }
 
-.place { 
-  margin: 0; 
+.place {
   display: grid; 
   grid-template-rows: auto auto; 
 }

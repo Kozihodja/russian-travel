@@ -33,8 +33,8 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
- }
+}
 
 .cover:hover .cover__background {
-    opacity: 0.35;
+    opacity: 0.35; 
 }
