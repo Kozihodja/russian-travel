@@ -10,33 +10,32 @@
   .place { 
     grid-template-columns: 1fr; 
     grid-gap: 32px; 
-  } 
-} 
- 
+  }
+}
+
 @media screen and (min-width: 768px) { 
   .place { 
     grid-template-columns: calc((100% - 28px)/2 - 12px/2) calc((100% - 28px)/2 + 12px/2); 
     grid-gap: 48px 28px; 
-  } 
-} 
- 
+  }
+}
+
 @media screen and (min-width: 1024px) { 
   .place { 
     grid-template-columns: calc((100% - 32px)/2 - 16px/2) calc((100% - 32px)/2 + 16px/2); 
     grid-gap: 48px 32px; 
-  } 
-} 
- 
+  }
+}
+
 @media screen and (min-width: 1280px) { 
   .place { 
     grid-template-columns: calc((100% - 40px)/2 - 24px/2) calc((100% - 40px)/2 + 24px/2);
     grid-gap: 48px 40px; 
-  } 
-} 
- 
- 
+  }
+}
+
 .place { 
   margin: 0; 
   display: grid; 
   grid-template-rows: auto auto); 
-} 
+}
