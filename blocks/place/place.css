@@ -15,27 +15,28 @@
 
 @media screen and (min-width: 768px) {
   .place {
-  	grid-template-columns: 340px 352px;
+  	grid-template-columns: 1fr calc(1fr + 12px);
     grid-gap: 48px 28px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .place {
-    grid-template-columns: 440px 456px;
+    grid-template-columns: 1fr calc(1fr + 16px);
     grid-gap: 48px 32px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .place {
-    grid-template-columns: 460px 484px;
+    grid-template-columns: 1fr calc(1fr + 24px);
     grid-gap: 48px 40px;
   }
 }
 
 
 .place {
+  width: 100%;
 	margin: 0;
 	display: grid;
 	grid-template-rows: auto auto;

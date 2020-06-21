@@ -4,22 +4,23 @@
 @media screen and (max-width: 449px) {
   .places {
     width: 100%;
-    grid-gap: 48px;
     grid-column: 1/4;
+    /*grid-gap: 48px;*/
   }
 }
 
 @media screen and (min-width: 450px) {
   .places {
     width: 100%;
-    grid-gap: 72px;
     grid-column: 2/3;
+    /*grid-gap: 72px;*/
   }
 }
 
 @media screen and (min-width: 1024px) {
   .places {
-    grid-gap: 80px;
+    width: 100%;
+    /*grid-gap: 80px;*/
   }
 }
 
@@ -33,13 +34,7 @@
 
 
 .places {
-<<<<<<< HEAD
   box-sizing: border-box;
 	margin: 0 auto;
-=======
   grid-row: 5/6;
-  box-sizing: border-box;
->>>>>>> feature/body
-	display: grid;
-	grid-template-rows: repeat(5 auto);
 }
