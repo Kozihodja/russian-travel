@@ -3,7 +3,6 @@
   opacity: 0.8; /*Немного затемнил изображение, чтобы заголовок и подзаголок читались*/
   transition: opacity 124ms linear, transform 124ms linear;
   width: 100%;
-  height: auto;
   display: block;
   object-fit: cover;
 }
