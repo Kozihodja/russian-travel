@@ -61,7 +61,7 @@
 @font-face {
   font-family: 'Inter';
   src: local('Inter'),
-       url('../../../vendor/fonts/Inter-Bold.ttf') format('ttf');
+       url('../../../vendor/fonts/Inter-Black.ttf') format('ttf');
   font-style: normal;
   font-weight: bold;
 }

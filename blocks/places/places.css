@@ -1,5 +1,3 @@
-@import url(../place/place.css);
-
 @media screen and (max-width: 449px) {
   .places {
     width: 100%;
