@@ -12,10 +12,6 @@
   .cover {
     grid-column: 1/4;
   }
-
-  .cover__backgroung {
-    width: 100%;
-  }
 }
 
 @media screen and (min-width: 1280px) {

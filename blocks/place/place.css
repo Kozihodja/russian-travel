@@ -9,10 +9,10 @@
 
 /*Применил грид к place*/
 /*для экранов шириной менее 767px выстраивается в один столбец, для остальных в 2 столбца*/
-@media screen and (max-width: 767px) { 
-  .place { 
-    grid-template-columns: 1fr; 
-    grid-gap: 32px; 
+@media screen and (max-width: 767px) {
+  .place {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
   }
 }
 
@@ -20,30 +20,30 @@
 /*калк вычитывает вертикальный отступ между элементами столбцами, делит пространство на 2, получаются ровные блоки
 и от половины отнимает половину разницы размера блоков, для левого столбца, а для правого, прибавляется половина разницы размеров блоков*/
 /*Так удается добится того, чтобы правый столбец был больше левого на определенное кол-во пикселей.*/
-@media screen and (min-width: 768px) { 
-  .place { 
+@media screen and (min-width: 768px) {
+  .place {
     grid-template-columns: calc((100% - 28px)/2 - 12px/2) calc((100% - 28px)/2 + 12px/2); 
-    grid-gap: 48px 28px; 
+    grid-gap: 48px 28px;
   }
 }
 
 /*Правый столбец больше левого на 16px*/
-@media screen and (min-width: 1024px) { 
-  .place { 
+@media screen and (min-width: 1024px) {
+  .place {
     grid-template-columns: calc((100% - 32px)/2 - 16px/2) calc((100% - 32px)/2 + 16px/2); 
-    grid-gap: 48px 32px; 
+    grid-gap: 48px 32px;
   }
 }
 
 /*Правый столбец больше левого на 24px*/
-@media screen and (min-width: 1280px) { 
-  .place { 
+@media screen and (min-width: 1280px) {
+  .place {
     grid-template-columns: calc((100% - 40px)/2 - 24px/2) calc((100% - 40px)/2 + 24px/2);
-    grid-gap: 48px 40px; 
+    grid-gap: 48px 40px;
   }
 }
 
 .place {
-  display: grid; 
-  grid-template-rows: auto auto; 
+  display: grid;
+  grid-template-rows: auto auto;
 }

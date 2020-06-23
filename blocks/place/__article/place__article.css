@@ -4,8 +4,8 @@
 /*Блок place для экранов шириной до 450px наложен на все столбцы грида root, таким образом блок занимает всю ширину экрана*/
 /*Элементы place__paragraph для маленьких экранов имеют отступы по бокам размером в 16px*/
 @media screen and (max-width: 449px) {
-  .place__article {			
-    padding: 0 16px 0 16px;
+  .place__article {
+  	padding: 0 16px 0 16px;
   }
 }
 
