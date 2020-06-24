@@ -6,7 +6,7 @@
 @media screen and (max-width: 449px) {
   .root {
     width: 100%;
-    grid-template-columns: 16px calc(100% - 2*16px) 16px;
+    grid-template-columns: 16px 1fr 16px;
   /*левый и правый столбцы по 16px выступают в качестве отступов*/
   /*элементы которые долны занять всю ширину экрана, будут наложены на три столбца*/
     padding-top: 16px;
@@ -21,7 +21,7 @@
 @media screen and (min-width: 450px) {
   .root {
     width: 100%;
-    grid-template-columns: 20px calc(100% - 2*20px) 20px;
+    grid-template-columns: 20px 1fr 20px;
     padding-top: 16px;
     padding-bottom: 24px;
     grid-row-gap: 48px;
@@ -30,7 +30,7 @@
 
 @media screen and (min-width: 768px) {
   .root {
-    grid-template-columns: 24px calc(100% - 2*24px) 24px;
+    grid-template-columns: 24px 1fr 24px;
     padding-top: 28px;
     grid-row-gap: 48px;
   }
@@ -38,7 +38,7 @@
 
 @media screen and (min-width: 1024px) {
   .root {
-    grid-template-columns: 48px calc(100% - 2*48px) 48px;
+    grid-template-columns: 48px 1fr 48px;
     grid-row-gap: 48px;
   }
 }
