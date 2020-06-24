@@ -10,7 +10,6 @@
   .lead {
     width: 100%;
     grid-column: 1/4;
-    grid-row: 2/3;
   }
 }
 
@@ -18,7 +17,6 @@
   .lead {
     width: 100%;
     grid-column: 2/3;
-    grid-row: 2/3;
   }
 }
 
@@ -26,11 +24,11 @@
   .lead {
     max-width: 984px;
     grid-column: 2/3;
-    grid-row: 2/3;
   }
 }
 
 .lead {
+  grid-row: 2/3;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
