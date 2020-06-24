@@ -17,7 +17,7 @@
 	text-align: right;
 }
 
-.header__lang-link:lang(ru) {
-	text-decoration: underline;
-	padding-right: 18px;
+.header__lang-link:lang(en) {
+	text-decoration: none;
+	padding-left: 18px;
 }

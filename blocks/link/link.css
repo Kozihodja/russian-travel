@@ -1,5 +1,4 @@
 .link {
-	text-decoration: none;
 	color: white;
 	transition: opacity 500ms linear, transform 500ms linear;
 }
