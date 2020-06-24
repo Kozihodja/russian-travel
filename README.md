@@ -1,4 +1,4 @@
-# Проект 3: [Путешествия по России](http://webdesign.ru.net)
+# Проект 3: [Путешествия по России](https://kozihodja.github.io/russian-travel/)
 
 ## Описание проекта
 
