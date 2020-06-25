@@ -2,11 +2,32 @@
 @import url(./__lang-link/header__lang-link.css);
 
 
-/*Во всех типах экрана имеет отступы, поэтому распологаем между 2 и 3 вертикальнымы линиями*/
+@media screen and (max-width: 449px) {
+  .header {
+    padding: 0 16px 0 16px;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  .header {
+    padding: 0 20px 0 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 0 24px 0 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    padding: 0 48px 0 48px;
+  }
+}
+
 .header {
 	width: 100%;
-	grid-column: 2/3;
-	grid-row: 1/2;
 	box-sizing:border-box;
 	display: flex;
 	flex-direction: row;

@@ -23,7 +23,7 @@
 
 .cover {
   width: 100%;
-  grid-row: 6/7;
+  grid-row: 5/6;
   margin: 0 auto;
   box-sizing: border-box;
   display: grid;
@@ -31,6 +31,6 @@
   grid-template-rows: 1fr;
 }
 
-.cover:hover .cover__background {
-    opacity: 0.35; 
+.cover:hover .cover__overlay {
+  opacity: 0.2; 
 }

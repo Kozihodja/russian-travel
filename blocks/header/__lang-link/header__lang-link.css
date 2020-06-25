@@ -1,3 +1,6 @@
+@import url(./_selected/header__lang-link_selected.css);
+@import url(./_selected/header__lang-link_not-selected.css);
+
 @media screen and (max-width: 767px) {
 	.header__lang-link {
 		font-size: 18px;
@@ -15,9 +18,11 @@
 .header__lang-link {
 	align-items: bottom;
 	text-align: right;
-}
-
-.header__lang-link:lang(en) {
-	text-decoration: none;
-	padding-left: 18px;
+	padding-left: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-auto-flow: column;
+  grid-gap: 18px;
 }

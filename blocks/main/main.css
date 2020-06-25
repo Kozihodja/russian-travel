@@ -1,0 +1,54 @@
+/*Разделил main на 3 грид столбца*/
+/*Левый и правый столбецы будут отступами*/
+/*Центральный столбец для элементов, у которых есть отступ*/
+/*Элементы, которые занимают всю ширину, будут наложены на все столбцы*/
+
+@media screen and (max-width: 449px) {
+  .main {
+    padding: 48px 0 64px 0;
+    width: 100%;
+    grid-template-columns: 16px 1fr 16px;
+  /*левый и правый столбцы по 16px выступают в качестве отступов*/
+  /*элементы которые долны занять всю ширину экрана, будут наложены на три столбца*/
+    grid-row-gap: 64px;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  .main {
+    padding: 48px 0 64px 0;
+    width: 100%;
+    grid-template-columns: 20px 1fr 20px;
+/*увеличил отступ по бокам для экранов шириной от 450px до 768px*/
+    grid-row-gap: 64px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .main {
+    padding: 48px 0 88px 0;
+    grid-template-columns: 24px 1fr 24px;
+    grid-row-gap: 88px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .main {
+    padding: 48px 0 92px 0;
+    grid-template-columns: 48px 1fr 48px;
+    grid-row-gap: 92px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .main {
+    padding: 56px 0 92px 0;
+    max-width: 1280px;
+  }
+}
+
+.main {
+  display: grid;
+  grid-template-rows: repeat(5, auto);
+  align-items: start;
+}

@@ -3,9 +3,17 @@
 @import url(./__copyright/footer__copyright.css);
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 449px) {
   .footer {
     display: block;
+    padding: 0 16px 0 16px;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  .footer {
+    display: block;
+    padding: 0 20px 0 20px;
   }
 }
 
@@ -14,14 +22,19 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 0 24px 0 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    padding: 0 48px 0 48px;
   }
 }
 
 
 .footer {
   width: 100%;
-  grid-column: 2/3;
-  grid-row: 7/8;
   box-sizing: border-box;
   margin: 0 auto;
   align-items: baseline;
